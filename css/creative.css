@@ -82,18 +82,23 @@ img::-moz-selection {
 
 .instagram-posts {
   display: flex;
+  overflow-x: auto;
 }
 
 .no-margin {
   margin: 0;
 }
 
-body > div.Embed > div.HoverCard {
-  display: none;
+.insta {
+  color: #000000;
 }
 
-body > div > div.Feedback {
-  background-color: green !important;
+.my-title {
+  text-shadow: 2px 2px 10px #000000;
+}
+
+.sub-title {
+  text-shadow: 2px 2px 10px #000000;
 }
 
 #mainNav {
