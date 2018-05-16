@@ -2,10 +2,11 @@ body,
 html {
   width: 100%;
   height: 100%;
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 hr {
@@ -107,6 +108,17 @@ img::-moz-selection {
   text-align: center;
 }
 
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+.text-white-faded {
+  color: rgba(255, 255, 255, 0.8);
+}
+
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #fff;
@@ -196,7 +208,7 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/header.jpg");
+  background-image: url("../img/header1.jpg");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
