@@ -146,6 +146,7 @@ img::-moz-selection {
 .pretty-grid {
   display: flex;
   align-items: center;
+  width: 50% !important;
 }
 
 .pretty-img {
@@ -163,7 +164,7 @@ img::-moz-selection {
 }
 
 .centered-row {
-  justify-content: center;
+  justify-content: center !important;
 }
 
 #mainNav {
