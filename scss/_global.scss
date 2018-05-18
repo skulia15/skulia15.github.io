@@ -4,6 +4,7 @@ html {
   width: 100%;
   height: 100%;
   font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
 }
 
 body {
@@ -136,4 +137,27 @@ img::-moz-selection {
 
 .clickable{
   cursor: pointer;
+}
+
+.pretty-grid{
+  display: flex;
+  align-items: center;
+  // width: 50% !important;
+}
+
+.pretty-img{
+  height: 150px;
+  width: auto !important;/*maintain aspect ratio*/
+  max-width: 300px;
+  transition: 1s;
+}
+
+@media (max-width: 768px) {
+  .pretty-img {
+    height: 100px;
+  }
+}
+
+.centered-row{
+  justify-content: center;
 }
