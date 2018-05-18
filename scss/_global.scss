@@ -4,11 +4,11 @@ html {
   width: 100%;
   height: 100%;
   font-family: "Roboto", sans-serif;
-  overflow-x: hidden;
 }
 
 body {
   @include serif-font;
+  overflow-x: hidden;
 }
 
 hr {
