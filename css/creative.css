@@ -3,11 +3,11 @@ html {
   width: 100%;
   height: 100%;
   font-family: "Roboto", sans-serif;
-  overflow-x: hidden;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
 }
 
 hr {
@@ -161,6 +161,10 @@ img::-moz-selection {
   .pretty-img {
     height: 100px;
   }
+}
+
+.centered-row {
+  justify-content: center;
 }
 
 #mainNav {
